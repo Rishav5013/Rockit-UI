@@ -1,0 +1,74 @@
+$primary: #52284f;
+$secondary: #f0bf35;
+$tertiary: #0c1e30;
+$textcolor: #ffffff;
+$success: #1e601e;
+$error: #781c1c;
+$warning: #795e0e;
+$gray: #616568;
+$tertiary-fade: #0f2e4d;
+$primary-fade: #5f275b;
+$black: #000000;
+
+$size-xs: 14px;
+$size-sm: 16px;
+$size-md: 22px;
+$size-lg: 24px;
+$size-xl: 28px;
+$size-xxl: 32px;
+
+$padding_vertical_sm: 6px;
+$padding_vertical_md: 8px;
+$padding_vertical_lg: 10px;
+
+$padding_horizontal_sm: 22px;
+$padding_horizontal_md: 28px;
+$padding_horizontal_lg: 35px;
+
+$border_Radius_xs:10px;
+$border_Radius_sm:10px;
+$border_Radius_md:12px;
+$border_Radius_lg:14px;
+$border_Radius_xl:16px;
+
+
+$font-family: "Inter", sans-serif, "Mulish", sans-serif, "Nunito Sans",
+  sans-serif;
+
+:export {
+  primary: #{$primary};
+  secondary: #{$secondary};
+  tertiary: #{$tertiary};
+  textcolor: #{$textcolor};
+  success: #{$success};
+  error: #{$error};
+  warning: #{$warning};
+  gray: #{$gray};
+  tertiary-fade: #{$tertiary-fade};
+  primary-fade: #{$primary-fade};
+  black: #{$black};
+
+  Sizexs: #{$size-xs};
+  Sizesm: #{$size-sm};
+  Sizemd: #{$size-md};
+  Sizelg: #{$size-lg};
+  Sizexl: #{$size-xl};
+  Sizexxl: #{$size-xxl};
+
+  padding_vertical_sm: #{$padding_vertical_sm};
+  padding_vertical_md: #{$padding_vertical_md};
+  padding_vertical_lg: #{$padding_vertical_lg};
+
+  padding_horizontal_sm: #{$padding_horizontal_sm};
+  padding_horizontal_md: #{$padding_horizontal_md};
+  padding_horizontal_lg: #{$padding_horizontal_lg};
+
+  border_Radius_xs: #{$border_Radius_xs};
+  border_Radius_sm: #{$border_Radius_sm};
+  border_Radius_md: #{$border_Radius_md};
+  border_Radius_lg: #{$border_Radius_lg};
+  border_Radius_xl: #{$border_Radius_xl};
+
+  fontfamily: #{$font-family};
+}
+

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hire_cards",
+  "info": {
+    "singularName": "hire-card",
+    "pluralName": "hire-cards",
+    "displayName": "HireCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HireCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards-detail.card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

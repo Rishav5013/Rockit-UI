@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_cards_detail_cards",
+  "info": {
+    "displayName": "Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "num": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "gradient": {
+      "type": "string"
+    }
+  }
+}

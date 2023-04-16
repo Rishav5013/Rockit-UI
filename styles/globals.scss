@@ -1,0 +1,15 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./cards.scss";
+@import "./connect.scss";
+@import "./header.scss" ;
+
+.outerContainer {
+  @apply w-full max-w-[1440px] m-auto;
+}

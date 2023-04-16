@@ -1,0 +1,118 @@
+import Link from "next/link";
+import styled from "styled-components";
+import variables from "../../styles/variables.module.scss";
+
+const Colors = {
+  primary: {
+    default: variables.primary,
+    hover: variables.success,
+    textColor: variables.textcolor,
+  },
+  secondary: {
+    default: variables.secondary,
+    hover: variables.tertiary,
+    textColor: variables.textcolor,
+  },
+};
+
+const Size = {
+  xs: {
+    fontSize: variables.Sizexs,
+    paddingVertical: variables.padding_vertical_xs,
+    paddingHorizontal: variables.padding_horizontal_xs,
+    borderRadius: variables.border_Radius_xs,
+  },
+  sm: {
+    fontSize: variables.Sizesm,
+    paddingVertical: variables.padding_vertical_sm,
+    paddingHorizontal: variables.padding_horizontal_sm,
+    borderRadius: variables.border_Radius_sm,
+  },
+  md: {
+    fontSize: variables.Sizemd,
+    paddingVertical: variables.padding_vertical_md,
+    paddingHorizontal: variables.padding_horizontal_md,
+    borderRadius: variables.border_Radius_md,
+  },
+  lg: {
+    fontSize: variables.Sizelg,
+    paddingVertical: variables.padding_vertical_lg,
+    paddingHorizontal: variables.padding_horizontal_lg,
+    borderRadius: variables.border_Radius_lg,
+  },
+};
+
+const StyledButton = styled.div`
+  background-color: ${(props) => Colors[props.type].default};
+  font-size: ${(props) => Size[props.size].fontSize};
+  padding: ${(props) => Size[props.size].paddingVertical}
+    ${(props) => Size[props.size].paddingHorizontal};
+  border-radius: ${(props) => Size[props.size].borderRadius};
+  font-weight: 500;
+  color: ${(props) => Colors[props.type].textColor};
+  border: none;
+  &:hover {
+    background-color: ${(props) => Colors[props.type].hover};
+  }
+  font-family: var(--font-family-inter);
+`;
+
+StyledButton.defaultProps = {
+  bgColor: "primary",
+  size: "md",
+};
+
+const Button = ({ children, type, size, href }) => {
+  return (
+    <StyledButton
+      type={type}
+      size={size}
+      href={href}
+      as={href ? Link : "button"}
+    >
+      {children}
+    </StyledButton>
+  );
+};
+
+export default Button;
+
+---------------------
+theme: {
+    extend: {
+      fontSize: {
+        xxs: ".5rem",
+        xs: ".75rem",
+        sm: ".875",
+        md: "1.25rem",
+        lg: "1.375rem",
+        xl: "2rem",
+      },
+      colors: {
+        primary: "#52284f",
+        secondary: "#f0bf35",
+        tertiary: " #0c1e30",
+        muted: "#ffffff",
+        error: "#781c1c",
+        warning: "#795e0e",
+        gray: "#616568",
+        textColor: "#F4F5F5",
+        tertiary_fade: "#0f2e4d",
+        primary_fade: "#5f275b",
+      },
+      fontFamily: {
+        heading: ["Mulish"],
+      },
+    },
+    plugins: [],
+  },
+
+card{
+  <div className='absolute -right-12 top-[110px] h-40 w-40'>
+            <Image src='/images/inner.svg' alt="work image" style={{objectFit: 'contain'}} fill />
+  </div>
+  <div className='absolute -right-20 top-[55px] h-[285px] w-[285px] -z-10'>
+            <Image src='/images/outer.svg' alt="work image" style={{objectFit: 'contain'}} fill />
+  </div>
+}
+       

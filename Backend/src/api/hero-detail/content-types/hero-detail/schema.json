@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_details",
+  "info": {
+    "singularName": "hero-detail",
+    "pluralName": "hero-details",
+    "displayName": "HeroDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroDetail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "details-of-section.details"
+    }
+  }
+}

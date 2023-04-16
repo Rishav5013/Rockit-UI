@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_list_p1s",
+  "info": {
+    "singularName": "footer-list-p1",
+    "pluralName": "footer-list-p1s",
+    "displayName": "footerList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listelement.list-item"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

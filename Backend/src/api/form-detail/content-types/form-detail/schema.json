@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_details",
+  "info": {
+    "singularName": "form-detail",
+    "pluralName": "form-details",
+    "displayName": "FormDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Lastname": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "biginteger"
+    },
+    "Firstname": {
+      "type": "string"
+    }
+  }
+}

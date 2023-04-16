@@ -1,0 +1,42 @@
+export const HireCards = [
+  {
+    key: 1,
+    num: "1",
+    hireSection: true,
+    color: "text-pink",
+    bgColor: "bg-pink-100",
+    text: "Inadequate time for a short-term or contractual project so that you can focus on your other important tasks.",
+  },
+  {
+    key: 2,
+    num: "2",
+    hireSection: true,
+    color: "text-blue",
+    bgColor: "bg-blue-100",
+    text: "You are not able to handle all work-related pressure and require a team that can assist in completing a specific project and for long-term relations",
+  },
+  {
+    key: 3,
+    num: "3",
+    hireSection: true,
+    color: "text-voilet",
+    bgColor: "bg-voilet-100",
+    text: "Lack of specific resources for particular technology-related projects.",
+  },
+  {
+    key: 4,
+    num: "4",
+    hireSection: true,
+    color: "text-pink",
+    bgColor: "bg-pink-100",
+    text: "You require a tech partner which can handle all the risks and work-related obligations be it software practices or procedures.",
+  },
+  {
+    key: 5,
+    num: "5",
+    hireSection: true,
+    color: "text-blue",
+    bgColor: "bg-blue-100",
+    text: "Modest development work within stiff deadlines.",
+  },
+];
